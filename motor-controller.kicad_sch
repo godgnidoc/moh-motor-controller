@@ -3630,13 +3630,23 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 38.1) (xy 200.66 38.1)
+			(xy 204.47 40.64) (xy 194.31 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "04d13e73-b85f-4dc2-ac85-50ee144afee3")
+	)
+	(wire
+		(pts
+			(xy 194.31 30.48) (xy 205.74 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d48bf7-939d-4d6c-9392-8bf965a1ca0b")
 	)
 	(wire
 		(pts
@@ -4090,7 +4100,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 40.64) (xy 200.66 40.64)
+			(xy 204.47 38.1) (xy 194.31 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4150,7 +4160,17 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 50.8) (xy 200.66 50.8)
+			(xy 194.31 27.94) (xy 205.74 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "530d57c6-6d10-43a1-be5e-9bf65e0c10d5")
+	)
+	(wire
+		(pts
+			(xy 204.47 48.26) (xy 194.31 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4210,7 +4230,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 48.26) (xy 200.66 48.26)
+			(xy 204.47 50.8) (xy 194.31 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4460,16 +4480,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 27.94) (xy 200.66 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89defd8e-4f7d-4ee4-8c18-16489b4071cf")
-	)
-	(wire
-		(pts
 			(xy 43.18 180.34) (xy 48.26 180.34)
 		)
 		(stroke
@@ -4507,16 +4517,6 @@
 			(type default)
 		)
 		(uuid "992ab80c-f037-49a6-9c20-ef61a0456e8d")
-	)
-	(wire
-		(pts
-			(xy 190.5 30.48) (xy 200.66 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a291b34-b722-4f0b-add4-f12de6b1a613")
 	)
 	(wire
 		(pts
@@ -5129,12 +5129,12 @@
 		(uuid "09bc3bad-0446-4934-bbb2-2dc12b55f845")
 	)
 	(label "SWCLK"
-		(at 190.5 50.8 180)
+		(at 204.47 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "0abba17d-3536-4ae2-bcbd-446ba638e7cf")
 	)
@@ -5179,12 +5179,12 @@
 		(uuid "2818a0b5-fe2e-4e32-b639-f30a8fb081cc")
 	)
 	(label "Tx"
-		(at 190.5 38.1 180)
+		(at 204.47 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "2b46daf3-aec9-406a-8554-a6ae16c471ae")
 	)
@@ -5338,7 +5338,7 @@
 		)
 		(uuid "88ac68ae-cd0e-4b0c-821f-1e9ffcf006dd")
 	)
-	(label "A"
+	(label "C"
 		(at 177.8 35.56 0)
 		(effects
 			(font
@@ -5378,7 +5378,7 @@
 		)
 		(uuid "9ec1f45c-9064-48e5-acef-30e1c7744220")
 	)
-	(label "C"
+	(label "A"
 		(at 177.8 40.64 0)
 		(effects
 			(font
@@ -5409,12 +5409,12 @@
 		(uuid "a7444546-57ef-4fdb-8273-d2e2418f4947")
 	)
 	(label "SWDIO"
-		(at 190.5 48.26 180)
+		(at 204.47 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b0322980-5de6-4d29-87b5-328c7cee3b88")
 	)
@@ -5469,12 +5469,12 @@
 		(uuid "dfcabfaa-3d60-4308-aaac-575d0476d2f8")
 	)
 	(label "Rx"
-		(at 190.5 40.64 180)
+		(at 204.47 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "e1057413-5d65-49f3-b7a7-71e528209ab8")
 	)
@@ -5540,7 +5540,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 205.74 38.1 0)
+		(at 189.23 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5549,7 +5549,7 @@
 		(fields_autoplaced yes)
 		(uuid "00dd0285-295c-4080-820a-555b70e94879")
 		(property "Reference" "J2"
-			(at 208.28 38.0999 0)
+			(at 186.69 40.6401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5558,7 +5558,7 @@
 			)
 		)
 		(property "Value" "GH1.25"
-			(at 208.28 40.6399 0)
+			(at 186.69 38.1001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,7 +5567,7 @@
 			)
 		)
 		(property "Footprint" "LCEDA_Connector_Wafer:CONN-TH_2P-P1.25_XUNPU_WAFER-GH1.25-2PWB"
-			(at 205.74 38.1 0)
+			(at 189.23 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +5576,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 38.1 0)
+			(at 189.23 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,7 +5585,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 205.74 38.1 0)
+			(at 189.23 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,7 +6217,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 205.74 48.26 0)
+		(at 189.23 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6226,7 +6226,7 @@
 		(fields_autoplaced yes)
 		(uuid "215ff776-014b-4687-ac20-4da7379154ec")
 		(property "Reference" "J3"
-			(at 208.28 48.2599 0)
+			(at 186.69 50.8001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,7 +6235,7 @@
 			)
 		)
 		(property "Value" "GH1.25"
-			(at 208.28 50.7999 0)
+			(at 186.69 48.2601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6244,7 +6244,7 @@
 			)
 		)
 		(property "Footprint" "LCEDA_Connector_Wafer:CONN-TH_2P-P1.25_XUNPU_WAFER-GH1.25-2PWB"
-			(at 205.74 48.26 0)
+			(at 189.23 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +6253,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 48.26 0)
+			(at 189.23 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6262,7 +6262,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 205.74 48.26 0)
+			(at 189.23 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +6354,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 190.5 27.94 0)
+		(at 205.74 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6362,7 +6362,7 @@
 		(dnp no)
 		(uuid "2355e3e0-5943-48a1-a0cd-64e2de37a100")
 		(property "Reference" "#PWR06"
-			(at 190.5 31.75 0)
+			(at 205.74 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6371,7 +6371,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 190.754 24.384 0)
+			(at 205.994 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +6379,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 27.94 0)
+			(at 205.74 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6388,7 +6388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 27.94 0)
+			(at 205.74 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6397,7 +6397,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 190.5 27.94 0)
+			(at 205.74 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7921,7 +7921,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 205.74 27.94 0)
+		(at 189.23 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7930,25 +7930,23 @@
 		(fields_autoplaced yes)
 		(uuid "8aa93dde-4d48-4b6c-95fd-f1cc6cdc4628")
 		(property "Reference" "J1"
-			(at 208.28 27.9399 0)
+			(at 189.23 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "GH1.25"
-			(at 208.28 30.4799 0)
+			(at 189.23 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "LCEDA_Connector_Wafer:CONN-TH_2P-P1.25_XUNPU_WAFER-GH1.25-2PWB"
-			(at 205.74 27.94 0)
+			(at 189.23 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7957,7 +7955,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 27.94 0)
+			(at 189.23 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7966,7 +7964,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 205.74 27.94 0)
+			(at 189.23 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9335,7 +9333,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 30.48 0)
+		(at 205.74 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9343,7 +9341,7 @@
 		(dnp no)
 		(uuid "dd30699b-a402-4963-a90e-df20cea502e8")
 		(property "Reference" "#PWR07"
-			(at 190.5 36.83 0)
+			(at 205.74 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9352,7 +9350,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 34.036 0)
+			(at 205.74 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9360,7 +9358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 30.48 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9369,7 +9367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 30.48 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9378,7 +9376,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 30.48 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
