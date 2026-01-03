@@ -8704,26 +8704,16 @@
 		(layer "Edge.Cuts")
 		(uuid "136a5b42-5c8c-40ef-afc6-d077a55e5777")
 	)
-	(gr_poly
-		(pts
-			(arc
-				(start 130 98)
-				(mid 141.567837 116.135937)
-				(end 162.890107 113.292651)
-			)
-			(arc
-				(start 137.109893 113.292651)
-				(mid 168.136478 89.568579)
-				(end 130 98)
-			)
-		)
+	(gr_arc
+		(start 137.109893 113.292651)
+		(mid 150 77.999499)
+		(end 162.890107 113.292651)
 		(stroke
-			(width 0.25)
+			(width 0.2)
 			(type solid)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "488e2147-69d3-4023-b302-11bc72c0fa8a")
+		(uuid "18b7c117-1162-46c2-bfb1-21c0f20272e7")
 	)
 	(gr_circle
 		(center 138.156 86.155955)
@@ -8749,7 +8739,17 @@
 		(layer "Edge.Cuts")
 		(uuid "acefcfd7-0608-43e0-99bb-01d09dbc0ebb")
 	)
-	(gr_text "1.0.0"
+	(gr_line
+		(start 137.109893 113.292651)
+		(end 162.890107 113.292651)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "eb065345-d7df-4522-bdf8-bc5a03098347")
+	)
+	(gr_text "1.0.1"
 		(at 158.5 105.25 0)
 		(layer "F.SilkS")
 		(uuid "82e38181-64de-4233-822c-7825a0b9d7f0")
